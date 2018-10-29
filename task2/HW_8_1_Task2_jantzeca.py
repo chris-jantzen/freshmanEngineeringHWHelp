@@ -12,7 +12,6 @@ def printResults(lastName, firstName, wholeYears, daysSinceBirthday):
   minutes = calculateAgeInMinutes(preciseYears)
   print('You are {} minutes old'.format(minutes))
 
-  
 def calculateYears(wholeYears, daysSinceBirthday):
   numDaysInYear = 365.242199
   years = wholeYears + daysSinceBirthday/numDaysInYear
