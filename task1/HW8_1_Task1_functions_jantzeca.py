@@ -9,5 +9,5 @@ print(firstResistance, secondResistance)
 parallelTest = parallelResistance(firstResistance, secondResistance)
 seriesTest = seriesResistance(firstResistance, secondResistance)
 
-print('Parallel network type: ', parallelTest)
-print('Series network type: ', seriesTest)
+print('Parallel network type:', parallelTest)
+print('Series network type:', seriesTest)
