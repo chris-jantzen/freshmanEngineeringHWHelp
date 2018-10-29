@@ -9,6 +9,3 @@ seriesTest = seriesResistance(secondResistance, secondResistance)
 
 print('Parallel network type: ', parallelTest)
 print('Series network type: ', seriesTest)
-
-# print('{:.3}'.format(parallelResistance(15, 20)))
-# print(seriesResistance(10, 50))
