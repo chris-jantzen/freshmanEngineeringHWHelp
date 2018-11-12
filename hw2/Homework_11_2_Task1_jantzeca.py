@@ -19,7 +19,7 @@ if len(indeciesOfRefraction) != 2:
 for i in range(len(distances)):
   distances[i] = float(distances[i])
 
-# n1 sin1(angle1) = n2 sin2(angle2)
+# n1 sin1(theta1) = n2 sin2(theta2)
 def getTheta2(n1, n2, theta1):
   return math.degrees(math.radians(90) - math.asin((n1 * math.sin(math.radians(theta1))/n2)))
 
