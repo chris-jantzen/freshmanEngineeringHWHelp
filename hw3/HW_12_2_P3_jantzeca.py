@@ -22,5 +22,4 @@ for num in numRolls:
   print('Percent Wins:', (numWins/num)*100)
   print('Percent Losses:', ((num-numWins)/num) * 100)
   index += 1
-    
   
