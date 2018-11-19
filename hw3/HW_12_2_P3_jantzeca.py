@@ -19,7 +19,7 @@ index = 0
 for num in numRolls:
   print('For', num, 'Rolls')
   numWins = wins[index]
-  print('Percent Wins:', (numWins/num)*100)
+  print('Percent Wins:', (numWins/num) * 100)
   print('Percent Losses:', ((num-numWins)/num) * 100)
   index += 1
   
